@@ -116,19 +116,28 @@ export default function JonRheaumeSite() {
               <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">
                 I build the infrastructure that connects GTM activity to revenue outcomes across scaling B2B SaaS organizations.
               </p>
-              <div className="mt-8 flex flex-wrap gap-4">
-                <a
-                  href="mailto:jon@jonrheaume.com"
-                  className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
-                >
-                  Let&apos;s talk
-                </a>
-                <a
-                  href="#work"
-                  className="rounded-2xl border border-[#00354B] px-5 py-3 text-sm font-semibold text-[#00354B] transition hover:bg-[#00354B] hover:text-[#F8ECD8]"
-                >
-                  See the work
-                </a>
+
+              <div className="mt-8 flex items-end justify-between gap-6">
+                <div className="flex flex-wrap gap-4">
+                  <a
+                    href="mailto:jon@jonrheaume.com"
+                    className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
+                  >
+                    Let&apos;s talk
+                  </a>
+                  <a
+                    href="#work"
+                    className="rounded-2xl border border-[#00354B] px-5 py-3 text-sm font-semibold text-[#00354B] transition hover:bg-[#00354B] hover:text-[#F8ECD8]"
+                  >
+                    See the work
+                  </a>
+                </div>
+
+                <img
+                  src="/headshot.png"
+                  alt="Jon Rheaume"
+                  className="hidden sm:block h-28 w-28 rounded-full border border-white/20 object-cover shadow-xl md:h-32 md:w-32"
+                />
               </div>
             </div>
 
