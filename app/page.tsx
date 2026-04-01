@@ -289,34 +289,25 @@ export default function JonRheaumeSite() {
               Selectively open to senior operating roles, fractional engagements, and PE portfolio work.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-<div className="mt-8 flex flex-wrap justify-center gap-4">
+              <a
+                href="mailto:jon@jonrheaume.com"
+                className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
+              >
+                jon@jonrheaume.com
 
-  {/* Email */}
-  <a
-    href="mailto:jon@jonrheaume.com"
-    className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
-  >
-    jon@jonrheaume.com
-  </a>
-
-  {/* LinkedIn */}
-  <a
-    href="https://www.linkedin.com/in/jonrheaume/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="rounded-2xl bg-[#00354b] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5"
-  >
-    Connect on LinkedIn
-  </a>
-
-  {/* Calendly */}
-  <a
-    href="https://calendly.com/jon-s-rheaume/30min"
-    target="_blank"
-    rel="noreferrer"
-    className="rounded-2xl border border-slate-400 px-5 py-3 text-sm font-semibold text-[#F8ECD8] transition hover:border-white"
-  >
-    Schedule time
-  </a>
-
-</div>
+              </a>
+              <a
+                href="https://calendly.com/jon-s-rheaume/30min"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-2xl border border-slate-400 px-5 py-3 text-sm font-semibold text-[#F8ECD8] transition hover:border-white"
+              >
+                Schedule time
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
+}
