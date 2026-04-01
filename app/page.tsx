@@ -153,14 +153,21 @@ export default function JonRheaumeSite() {
         <section id="build" className="bg-[#f3efe7]">
           <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
             <div className="mb-10">
-              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">What I Build</div>
+              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">
+                What I Build
+              </div>
               <h2 className="mt-3 max-w-3xl text-3xl font-medium tracking-tight text-[#00354B] md:text-4xl">
-                <span className="font-serif">Revenue outcomes are driven by pipeline structure, team capacity, and conversion over time.</span>
+                <span className="font-serif">
+                  Revenue outcomes are driven by pipeline structure, team capacity, and conversion over time.
+                </span>
               </h2>
             </div>
             <div className="grid gap-6 md:grid-cols-3">
               {buildCards.map((card, index) => (
-                <div key={card.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+                <div
+                  key={card.title}
+                  className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm"
+                >
                   <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">
                     0{index + 1}
                   </div>
@@ -177,14 +184,19 @@ export default function JonRheaumeSite() {
         <section id="work" className="border-y border-slate-200 bg-[#c7d6df]">
           <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
             <div className="mb-10">
-              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">Work</div>
+              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">
+                Work
+              </div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight text-[#00354B] md:text-4xl">
                 <span className="font-serif">What this looks like in practice.</span>
               </h2>
             </div>
             <div className="space-y-8">
               {workItems.map((item) => (
-                <div key={item.title} className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-7 lg:grid-cols-[0.8fr_1.2fr]">
+                <div
+                  key={item.title}
+                  className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-7 lg:grid-cols-[0.8fr_1.2fr]"
+                >
                   <div>
                     <h3 className="text-2xl font-medium tracking-tight text-[#00354B]">
                       <span className="font-serif">{item.title}</span>
@@ -210,14 +222,21 @@ export default function JonRheaumeSite() {
         <section id="projects" className="bg-white">
           <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
             <div className="mb-10">
-              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">Selected Systems</div>
+              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">
+                Selected Systems
+              </div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight text-[#00354B] md:text-4xl">
-                <span className="font-serif">Systems built to answer whether revenue targets are actually achievable.</span>
+                <span className="font-serif">
+                  Systems built to answer whether revenue targets are actually achievable.
+                </span>
               </h2>
             </div>
             <div className="space-y-8">
               {projectItems.map((item) => (
-                <div key={item.title} className="rounded-3xl border border-slate-200 bg-[#f8f6f1] p-7">
+                <div
+                  key={item.title}
+                  className="rounded-3xl border border-slate-200 bg-[#f8f6f1] p-7"
+                >
                   <h3 className="text-2xl font-medium tracking-tight text-[#00354B]">
                     <span className="font-serif">{item.title}</span>
                   </h3>
@@ -240,38 +259,62 @@ export default function JonRheaumeSite() {
           <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
             <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
               <div>
-                <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">About</div>
+                <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">
+                  About
+                </div>
                 <h2 className="mt-3 text-3xl font-medium tracking-tight text-[#00354B] md:text-4xl">
                   <span className="font-serif">The longer version.</span>
                 </h2>
                 <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
                   <p>
-                    I build the infrastructure that determines whether revenue targets are achievable, including pipeline systems, coverage models, and forecasting logic that connect activity to outcomes.
+                    I build the infrastructure that determines whether revenue targets are achievable,
+                    including pipeline systems, coverage models, and forecasting logic that connect
+                    activity to outcomes.
                   </p>
                   <p>
-                    At ClearCompany, I supported growth from ~$10M to ~$90M ARR across 38 consecutive quarters by focusing on forecast credibility, capacity planning, and conversion discipline.
+                    At ClearCompany, I supported growth from ~$10M to ~$90M ARR across 38 consecutive
+                    quarters by focusing on forecast credibility, capacity planning, and conversion
+                    discipline.
                   </p>
                   <p>
-                    I work with B2B SaaS companies where pipeline quality and GTM structure are the primary constraints.
+                    I work with B2B SaaS companies where pipeline quality and GTM structure are the
+                    primary constraints.
                   </p>
                 </div>
               </div>
               <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
                 <div className="space-y-6 text-sm leading-7 text-slate-700">
                   <div>
-                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">Best fit</div>
-                    <div className="mt-2">B2B SaaS companies where pipeline quality, forecast credibility, and GTM structure are real constraints.</div>
+                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">
+                      Best fit
+                    </div>
+                    <div className="mt-2">
+                      B2B SaaS companies where pipeline quality, forecast credibility, and GTM
+                      structure are real constraints.
+                    </div>
                   </div>
                   <div>
-                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">Background</div>
-                    <div className="mt-2">~15 years in B2B SaaS across SDR leadership, pipeline generation, GTM systems, and revenue planning.</div>
+                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">
+                      Background
+                    </div>
+                    <div className="mt-2">
+                      ~15 years in B2B SaaS across SDR leadership, pipeline generation, GTM systems,
+                      and revenue planning.
+                    </div>
                   </div>
                   <div>
-                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">Use cases</div>
-                    <div className="mt-2">VP and SVP operating roles, revenue modeling projects, and selective fractional work where the problem is systemic.</div>
+                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">
+                      Use cases
+                    </div>
+                    <div className="mt-2">
+                      VP and SVP operating roles, revenue modeling projects, and selective fractional
+                      work where the problem is systemic.
+                    </div>
                   </div>
                   <div>
-                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">Location</div>
+                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">
+                      Location
+                    </div>
                     <div className="mt-2">Boston, MA</div>
                   </div>
                 </div>
@@ -283,32 +326,41 @@ export default function JonRheaumeSite() {
         <section id="contact" className="bg-[#00354B]">
           <div className="mx-auto max-w-6xl px-6 py-20 text-center lg:px-8">
             <h2 className="text-4xl font-medium tracking-tight text-[#F8ECD8] md:text-5xl">
-              <span className="font-serif">Execution reflects the structure behind it. Let&apos;s talk.</span>
+              <span className="font-serif">
+                Execution reflects the structure behind it. Let&apos;s talk.
+              </span>
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-200">
-              Selectively open to senior operating roles, fractional engagements, and PE portfolio work.
+              Selectively open to senior operating roles, fractional engagements, and PE portfolio
+              work.
             </p>
-<div className="mt-8 flex flex-wrap justify-center gap-4">
-  <a
-    href="mailto:jon@jonrheaume.com"
-    className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
-  >
-    jon@jonrheaume.com
-  </a>
-  <a
-    href="https://www.linkedin.com/in/jonrheaume/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="rounded-2xl bg-[#1f6f8b] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5 hover:bg-[#2a8ca8]"
-  >
-    Connect on LinkedIn
-  </a>
-  <a
-    href="https://calendly.com/jon-s-rheaume/30min"
-    target="_blank"
-    rel="noreferrer"
-    className="rounded-2xl border border-slate-400 px-5 py-3 text-sm font-semibold text-[#F8ECD8] transition hover:border-white"
-  >
-    Schedule time
-  </a>
-</div>
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
+              <a
+                href="mailto:jon@jonrheaume.com"
+                className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
+              >
+                jon@jonrheaume.com
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jonrheaume/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-2xl bg-[#1f6f8b] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5 hover:bg-[#2a8ca8]"
+              >
+                Connect on LinkedIn
+              </a>
+              <a
+                href="https://calendly.com/jon-s-rheaume/30min"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-2xl border border-slate-400 px-5 py-3 text-sm font-semibold text-[#F8ECD8] transition hover:border-white"
+              >
+                Schedule time
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
+}
