@@ -144,7 +144,7 @@ export default function JonRheaumeSite() {
   </p>
   <p>
     Best aligned to senior operating roles and revenue planning work.
-  </p>
+  </p>	
               </div>
             </div>
           </div>
@@ -294,6 +294,14 @@ export default function JonRheaumeSite() {
                 className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
               >
                 jon@jonrheaume.com
+<a
+  href="https://www.linkedin.com/in/jonrheaume/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-2xl bg-[#00354b] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5"
+>
+  Connect on LinkedIn
+</a>
               </a>
               <a
                 href="https://calendly.com/jon-s-rheaume/30min"
