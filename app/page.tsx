@@ -1,11 +1,11 @@
 export default function JonRheaumeSite() {
-  const sections = [
-    { id: "build", label: "What I Build" },
-    { id: "work", label: "Work" },
-    { id: "projects", label: "Selected Work" },
-    { id: "about", label: "About" },
-    { id: "contact", label: "Contact" },
-  ];
+const sections = [
+  { id: "build", label: "What I Build" },
+  { id: "work", label: "Experience" },
+  { id: "projects", label: "Systems" },
+  { id: "about", label: "About" },
+  { id: "contact", label: "Contact" },
+];
 
   const buildCards = [
     {
