@@ -110,34 +110,36 @@ export default function JonRheaumeSite() {
               <div className="mb-5 text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">
                 Revenue Architecture · Boston, MA
               </div>
-              <h1 className="max-w-4xl text-5xl font-medium leading-tight tracking-tight text-[#00354B] md:text-6xl">
-                <span className="font-serif">Pipeline systems that hold up under real operating conditions.</span>
-              </h1>
-              <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">
-                I build the infrastructure that connects GTM activity to revenue outcomes across scaling B2B SaaS organizations.
-              </p>
 
-              <div className="mt-8 flex items-end justify-between gap-6">
-                <div className="flex flex-wrap gap-4">
-                  <a
-                    href="mailto:jon@jonrheaume.com"
-                    className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
-                  >
-                    Let&apos;s talk
-                  </a>
-                  <a
-                    href="#work"
-                    className="rounded-2xl border border-[#00354B] px-5 py-3 text-sm font-semibold text-[#00354B] transition hover:bg-[#00354B] hover:text-[#F8ECD8]"
-                  >
-                    See the work
-                  </a>
-                </div>
+              <div className="flex items-start justify-between gap-6">
+                <h1 className="max-w-4xl text-5xl font-medium leading-tight tracking-tight text-[#00354B] md:text-6xl">
+                  <span className="font-serif">Pipeline systems that hold up under real operating conditions.</span>
+                </h1>
 
                 <img
                   src="/headshot.png"
                   alt="Jon Rheaume"
-                  className="hidden sm:block h-28 w-28 rounded-full border border-white/20 object-cover shadow-xl md:h-32 md:w-32"
+                  className="hidden sm:block h-24 w-24 shrink-0 rounded-full border border-white/25 object-cover shadow-xl md:h-28 md:w-28"
                 />
+              </div>
+
+              <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">
+                I build the infrastructure that connects GTM activity to revenue outcomes across scaling B2B SaaS organizations.
+              </p>
+
+              <div className="mt-8 flex flex-wrap gap-4">
+                <a
+                  href="mailto:jon@jonrheaume.com"
+                  className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
+                >
+                  Let&apos;s talk
+                </a>
+                <a
+                  href="#work"
+                  className="rounded-2xl border border-[#00354B] px-5 py-3 text-sm font-semibold text-[#00354B] transition hover:bg-[#00354B] hover:text-[#F8ECD8]"
+                >
+                  See the work
+                </a>
               </div>
             </div>
 
@@ -165,7 +167,9 @@ export default function JonRheaumeSite() {
             <div className="mb-10">
               <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">What I Build</div>
               <h2 className="mt-3 max-w-3xl text-3xl font-medium tracking-tight text-[#00354B] md:text-4xl">
-                <span className="font-serif">Revenue outcomes are driven by pipeline structure, team capacity, and conversion over time.</span>
+                <span className="font-serif">
+                  Revenue outcomes are driven by pipeline structure, team capacity, and conversion over time.
+                </span>
               </h2>
             </div>
             <div className="grid gap-6 md:grid-cols-3">
@@ -194,7 +198,10 @@ export default function JonRheaumeSite() {
             </div>
             <div className="space-y-8">
               {workItems.map((item) => (
-                <div key={item.title} className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-7 lg:grid-cols-[0.8fr_1.2fr]">
+                <div
+                  key={item.title}
+                  className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-7 lg:grid-cols-[0.8fr_1.2fr]"
+                >
                   <div>
                     <h3 className="text-2xl font-medium tracking-tight text-[#00354B]">
                       <span className="font-serif">{item.title}</span>
@@ -220,9 +227,13 @@ export default function JonRheaumeSite() {
         <section id="projects" className="bg-white">
           <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
             <div className="mb-10">
-              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">Selected Systems</div>
+              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">
+                Selected Systems
+              </div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight text-[#00354B] md:text-4xl">
-                <span className="font-serif">Systems built to answer whether revenue targets are actually achievable.</span>
+                <span className="font-serif">
+                  Systems built to answer whether revenue targets are actually achievable.
+                </span>
               </h2>
             </div>
             <div className="space-y-8">
@@ -256,13 +267,16 @@ export default function JonRheaumeSite() {
                 </h2>
                 <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
                   <p>
-                    I build the infrastructure that determines whether revenue targets are achievable, including pipeline systems, coverage models, and forecasting logic that connect activity to outcomes.
+                    I build the infrastructure that determines whether revenue targets are achievable, including
+                    pipeline systems, coverage models, and forecasting logic that connect activity to outcomes.
                   </p>
                   <p>
-                    At ClearCompany, I supported growth from ~$10M to ~$90M ARR across 38 consecutive quarters by focusing on forecast credibility, capacity planning, and conversion discipline.
+                    At ClearCompany, I supported growth from ~$10M to ~$90M ARR across 38 consecutive quarters by
+                    focusing on forecast credibility, capacity planning, and conversion discipline.
                   </p>
                   <p>
-                    I work with B2B SaaS companies where pipeline quality and GTM structure are the primary constraints.
+                    I work with B2B SaaS companies where pipeline quality and GTM structure are the primary
+                    constraints.
                   </p>
                 </div>
               </div>
@@ -270,15 +284,26 @@ export default function JonRheaumeSite() {
                 <div className="space-y-6 text-sm leading-7 text-slate-700">
                   <div>
                     <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">Best fit</div>
-                    <div className="mt-2">B2B SaaS companies where pipeline quality, forecast credibility, and GTM structure are real constraints.</div>
+                    <div className="mt-2">
+                      B2B SaaS companies where pipeline quality, forecast credibility, and GTM structure are real
+                      constraints.
+                    </div>
                   </div>
                   <div>
-                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">Background</div>
-                    <div className="mt-2">~15 years in B2B SaaS across SDR leadership, pipeline generation, GTM systems, and revenue planning.</div>
+                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">
+                      Background
+                    </div>
+                    <div className="mt-2">
+                      ~15 years in B2B SaaS across SDR leadership, pipeline generation, GTM systems, and revenue
+                      planning.
+                    </div>
                   </div>
                   <div>
                     <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">Use cases</div>
-                    <div className="mt-2">VP and SVP operating roles, revenue modeling projects, and selective fractional work where the problem is systemic.</div>
+                    <div className="mt-2">
+                      VP and SVP operating roles, revenue modeling projects, and selective fractional work where the
+                      problem is systemic.
+                    </div>
                   </div>
                   <div>
                     <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">Location</div>
