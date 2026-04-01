@@ -110,23 +110,13 @@ export default function JonRheaumeSite() {
               <div className="mb-5 text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">
                 Revenue Architecture · Boston, MA
               </div>
-
-              <div className="flex items-start justify-between gap-6">
-                <h1 className="max-w-4xl text-5xl font-medium leading-tight tracking-tight text-[#00354B] md:text-6xl">
-                  <span className="font-serif">Pipeline systems that hold up under real operating conditions.</span>
-                </h1>
-
-                <img
-                  src="/headshot.png"
-                  alt="Jon Rheaume"
-                  className="hidden sm:block h-24 w-24 shrink-0 rounded-full border border-white/25 object-cover shadow-xl md:h-28 md:w-28"
-                />
-              </div>
-
+              <h1 className="max-w-4xl text-5xl font-medium leading-tight tracking-tight text-[#00354B] md:text-6xl">
+                <span className="font-serif">Pipeline systems that hold up under real operating conditions.</span>
+              </h1>
               <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-700">
-                I build the infrastructure that connects GTM activity to revenue outcomes across scaling B2B SaaS organizations.
+                I build the infrastructure that connects GTM activity to revenue outcomes across scaling B2B SaaS
+                organizations.
               </p>
-
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
                   href="mailto:jon@jonrheaume.com"
@@ -149,10 +139,12 @@ export default function JonRheaumeSite() {
               </div>
               <div className="mt-4 space-y-5 text-sm leading-7 text-slate-700">
                 <p>
-                  I work with B2B SaaS companies where pipeline, capacity, and conversion need to align with revenue targets.
+                  I work with B2B SaaS companies where pipeline, capacity, and conversion need to align with revenue
+                  targets.
                 </p>
                 <p>
-                  The focus is the operating structure behind revenue: how pipeline is created, how it converts, and how team capacity supports the plan.
+                  The focus is the operating structure behind revenue: how pipeline is created, how it converts, and
+                  how team capacity supports the plan.
                 </p>
                 <p>
                   Best aligned to senior operating roles and revenue planning work.
@@ -227,9 +219,7 @@ export default function JonRheaumeSite() {
         <section id="projects" className="bg-white">
           <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
             <div className="mb-10">
-              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">
-                Selected Systems
-              </div>
+              <div className="text-xs font-semibold uppercase tracking-[0.24em] text-[#F78021]">Selected Systems</div>
               <h2 className="mt-3 text-3xl font-medium tracking-tight text-[#00354B] md:text-4xl">
                 <span className="font-serif">
                   Systems built to answer whether revenue targets are actually achievable.
@@ -290,9 +280,7 @@ export default function JonRheaumeSite() {
                     </div>
                   </div>
                   <div>
-                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">
-                      Background
-                    </div>
+                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">Background</div>
                     <div className="mt-2">
                       ~15 years in B2B SaaS across SDR leadership, pipeline generation, GTM systems, and revenue
                       planning.
@@ -316,36 +304,48 @@ export default function JonRheaumeSite() {
         </section>
 
         <section id="contact" className="bg-[#00354B]">
-          <div className="mx-auto max-w-6xl px-6 py-20 text-center lg:px-8">
-            <h2 className="text-4xl font-medium tracking-tight text-[#F8ECD8] md:text-5xl">
-              <span className="font-serif">Execution reflects the structure behind it. Let&apos;s talk.</span>
-            </h2>
-            <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-200">
-              Selectively open to senior operating roles, fractional engagements, and PE portfolio work.
-            </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a
-                href="mailto:jon@jonrheaume.com"
-                className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
-              >
-                jon@jonrheaume.com
-              </a>
-              <a
-                href="https://www.linkedin.com/in/jonrheaume/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-2xl bg-[#1f6f8b] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5 hover:bg-[#2a8ca8]"
-              >
-                Connect on LinkedIn
-              </a>
-              <a
-                href="https://calendly.com/jon-s-rheaume/30min"
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-2xl border border-slate-400 px-5 py-3 text-sm font-semibold text-[#F8ECD8] transition hover:border-white"
-              >
-                Schedule time
-              </a>
+          <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
+            <div className="grid items-end gap-10 lg:grid-cols-[1fr_auto]">
+              <div className="text-center lg:text-left">
+                <h2 className="text-4xl font-medium tracking-tight text-[#F8ECD8] md:text-5xl">
+                  <span className="font-serif">Execution reflects the structure behind it. Let&apos;s talk.</span>
+                </h2>
+                <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-200 lg:mx-0">
+                  Selectively open to senior operating roles, fractional engagements, and PE portfolio work.
+                </p>
+                <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
+                  <a
+                    href="mailto:jon@jonrheaume.com"
+                    className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
+                  >
+                    jon@jonrheaume.com
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/jonrheaume/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-2xl bg-[#1f6f8b] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5 hover:bg-[#2a8ca8]"
+                  >
+                    Connect on LinkedIn
+                  </a>
+                  <a
+                    href="https://calendly.com/jon-s-rheaume/30min"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-2xl border border-slate-400 px-5 py-3 text-sm font-semibold text-[#F8ECD8] transition hover:border-white"
+                  >
+                    Schedule time
+                  </a>
+                </div>
+              </div>
+
+              <div className="hidden lg:block">
+                <img
+                  src="/headshot.png"
+                  alt="Jon Rheaume"
+                  className="h-40 w-40 rounded-full border border-white/20 object-cover shadow-2xl"
+                />
+              </div>
             </div>
           </div>
         </section>
