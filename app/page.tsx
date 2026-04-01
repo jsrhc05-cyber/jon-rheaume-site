@@ -84,6 +84,7 @@ export default function JonRheaumeSite() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900">
+      {/* HEADER */}
       <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
           <a href="#top" className="text-lg font-semibold tracking-tight text-[#00354B]">
@@ -104,6 +105,8 @@ export default function JonRheaumeSite() {
       </header>
 
       <main id="top">
+
+        {/* HERO */}
         <section className="border-b border-slate-200 bg-[#F8ECD8]">
           <div className="mx-auto grid max-w-6xl gap-10 px-6 py-24 lg:grid-cols-[1.2fr_0.8fr] lg:px-8 lg:py-32">
             <div>
@@ -119,80 +122,58 @@ export default function JonRheaumeSite() {
                 I build the infrastructure that connects GTM activity to revenue outcomes across scaling B2B SaaS organizations.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <a
-                  href="mailto:jon@jonrheaume.com"
-                  className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
-                >
+                <a href="mailto:jon@jonrheaume.com" className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm">
                   Let&apos;s talk
                 </a>
-                <a
-                  href="#work"
-                  className="rounded-2xl border border-[#00354B] px-5 py-3 text-sm font-semibold text-[#00354B] transition hover:bg-[#00354B] hover:text-[#F8ECD8]"
-                >
+                <a href="#work" className="rounded-2xl border border-[#00354B] px-5 py-3 text-sm font-semibold text-[#00354B]">
                   See the work
                 </a>
               </div>
             </div>
+          </div>
+        </section>
 
-            <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
-              <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[#F78021]">
-                Focus
-              </div>
-              <div className="mt-4 space-y-5 text-sm leading-7 text-slate-700">
-                <p>
-                  I work with B2B SaaS companies where pipeline, capacity, and conversion need to align with revenue targets.
-                </p>
-                <p>
-                  The focus is the operating structure behind revenue: how pipeline is created, how it converts, and how team capacity supports the plan.
-                </p>
-                <p>
-                  Best aligned to senior operating roles and revenue planning work.
-                </p>
-              </div>
+        {/* BUILD */}
+        <section id="build" className="bg-[#f3efe7]">
+          <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
+            <div className="grid gap-6 md:grid-cols-3">
+              {buildCards.map((card) => (
+                <div key={card.title} className="rounded-3xl border bg-white p-7">
+                  <h3 className="text-xl font-semibold text-[#00354B]">{card.title}</h3>
+                  <p className="mt-3 text-sm text-slate-700">{card.body}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* CONTACT SECTION */}
-        <section id="contact" className="bg-[#00354B]">
-          <div className="mx-auto max-w-6xl px-6 py-20 text-center lg:px-8">
-            <h2 className="text-4xl font-medium tracking-tight text-[#F8ECD8] md:text-5xl">
-              <span className="font-serif">
-                Execution reflects the structure behind it. Let&apos;s talk.
-              </span>
-            </h2>
-            <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-200">
-              Selectively open to senior operating roles, fractional engagements, and PE portfolio work.
-            </p>
+        {/* WORK */}
+        <section id="work" className="bg-white">
+          <div className="mx-auto max-w-6xl px-6 py-20 lg:px-8">
+            {workItems.map((item) => (
+              <div key={item.title} className="mb-10">
+                <h3 className="text-xl font-semibold">{item.title}</h3>
+                <p className="mt-2">{item.summary}</p>
+                <ul className="mt-4 list-disc pl-5">
+                  {item.bullets.map((b) => (
+                    <li key={b}>{b}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
 
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a
-                href="mailto:jon@jonrheaume.com"
-                className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
-              >
-                jon@jonrheaume.com
-              </a>
-
-              <a
-                href="https://www.linkedin.com/in/jonrheaume/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-2xl bg-[#1f6f8b] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5 hover:bg-[#2a8ca8]"
-              >
-                Connect on LinkedIn
-              </a>
-
-              <a
-                href="https://calendly.com/jon-s-rheaume/30min"
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-2xl border border-slate-400 px-5 py-3 text-sm font-semibold text-[#F8ECD8] transition hover:border-white"
-              >
-                Schedule time
-              </a>
+        {/* CONTACT */}
+        <section id="contact" className="bg-[#00354B] text-white">
+          <div className="mx-auto max-w-6xl px-6 py-20 text-center">
+            <div className="flex justify-center gap-4">
+              <a href="mailto:jon@jonrheaume.com">Email</a>
+              <a href="https://www.linkedin.com/in/jonrheaume/">LinkedIn</a>
             </div>
           </div>
         </section>
+
       </main>
     </div>
   );
