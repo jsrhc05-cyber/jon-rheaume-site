@@ -137,14 +137,14 @@ export default function JonRheaumeSite() {
               </div>
               <div className="mt-4 space-y-5 text-sm leading-7 text-slate-700">
                 <p>
-    I work with B2B SaaS companies where pipeline, capacity, and conversion need to align with revenue targets.
-  </p>
-  <p>
-    The focus is the operating structure behind revenue: how pipeline is created, how it converts, and how team capacity supports the plan.
-  </p>
-  <p>
-    Best aligned to senior operating roles and revenue planning work.
-  </p>	
+                  I work with B2B SaaS companies where pipeline, capacity, and conversion need to align with revenue targets.
+                </p>
+                <p>
+                  The focus is the operating structure behind revenue: how pipeline is created, how it converts, and how team capacity supports the plan.
+                </p>
+                <p>
+                  Best aligned to senior operating roles and revenue planning work.
+                </p>
               </div>
             </div>
           </div>
@@ -294,7 +294,14 @@ export default function JonRheaumeSite() {
                 className="rounded-2xl bg-[#F78021] px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5"
               >
                 jon@jonrheaume.com
-
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jonrheaume/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-2xl bg-[#0B4861] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5"
+              >
+                Connect on LinkedIn
               </a>
               <a
                 href="https://calendly.com/jon-s-rheaume/30min"
