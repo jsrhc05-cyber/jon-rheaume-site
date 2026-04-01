@@ -124,7 +124,7 @@ export default function JonRheaumeSite() {
                 </a>
                 <a
                   href="#work"
-                  className="rounded-2xl border border-slate-300 px-5 py-3 text-sm font-semibold text-[#00354B] transition hover:border-[#00354B]"
+                  className="rounded-2xl border border-[#00354B] px-5 py-3 text-sm font-semibold text-[#00354B] transition hover:bg-[#00354B] hover:text-[#F8ECD8]"
                 >
                   See the work
                 </a>
@@ -299,8 +299,7 @@ export default function JonRheaumeSite() {
                 href="https://www.linkedin.com/in/jonrheaume/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-2xl bg-[#0B4861] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5"
-              >
+                className="rounded-2xl bg-[#1f6f8b] px-5 py-3 text-sm font-semibold text-[#F8ECD8] shadow-sm transition hover:-translate-y-0.5 hover:bg-[#2a8ca8]"
                 Connect on LinkedIn
               </a>
               <a
