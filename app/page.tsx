@@ -137,17 +137,14 @@ export default function JonRheaumeSite() {
               </div>
               <div className="mt-4 space-y-5 text-sm leading-7 text-slate-700">
                 <p>
-                  Revenue infrastructure for B2B SaaS companies where the constraint is whether pipeline, capacity, and conversion math hold up.
-                </p>
-                <p>
-                  Best aligned to senior operating roles, revenue modeling projects, and selective fractional work.
-                </p>
-                <p>
-                  Work typically sits at the intersection of forecast credibility, pipeline coverage, GTM systems design, and execution capacity.
-                </p>
-                <p>
-                  Strongest fit for teams that need clearer operating math behind growth targets rather than broader brand or top-of-funnel marketing support.
-                </p>
+    I work with B2B SaaS companies where pipeline, capacity, and conversion need to align with revenue targets.
+  </p>
+  <p>
+    The focus is the operating structure behind revenue: how pipeline is created, how it converts, and how team capacity supports the plan.
+  </p>
+  <p>
+    Best aligned to senior operating roles and revenue planning work.
+  </p>
               </div>
             </div>
           </div>
