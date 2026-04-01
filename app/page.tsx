@@ -31,9 +31,11 @@ export default function JonRheaumeSite() {
       summary:
         "Supported 38 consecutive quarters of compounding growth by developing the GTM infrastructure that connected pipeline creation, conversion, and team capacity.",
       bullets: [
-        "Reduced SDR ramp from 90 to 30 days and improved lead to opportunity conversion from 24% to 48%",
-        "Architected a $400M+ cumulative pipeline engine and scaled SDR org from 0 to 40+ reps",
-        "Led the hiring and onboarding of 180+ roles across Sales, Marketing, and Operations",
+         "Reduced SDR ramp from 90 to 30 days and improved lead to opportunity conversion from 24% to 48%",
+  "Architected a $400M+ cumulative pipeline engine and scaled SDR org from 0 to 40+ reps",
+  "Led hiring and onboarding across 180+ roles in Sales, Marketing, and Operations",
+  "Inc. 5000 honoree for 9 consecutive years during this period",
+],
       ],
     },
     {
